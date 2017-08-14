@@ -1,0 +1,20 @@
+{
+  "name": "hack-rpg",
+  "version": "1.0.0",
+  "description": "あそべるプログラミング HackforPlay",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackforplay/hack-rpg.git"
+  },
+  "keywords": ["hackforplay"],
+  "author": "teramotodaiki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackforplay/hack-rpg/issues"
+  },
+  "homepage": "https://github.com/hackforplay/hack-rpg#readme"
+}
