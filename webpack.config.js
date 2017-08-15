@@ -9,22 +9,19 @@ const port = process.env.PORT || 8082;
 const dist = 'public/';
 
 module.exports = {
-	entry: './src/index.js',
+	entry: './src/support-hot-reload.js',
 	output: {
 		path: path.resolve(dist),
 		filename: '[name].js'
 	},
 	module: {
-		loaders: [
-			{
-				test: /\.(html|hbs)$/,
-				loaders: ['handlebars-loader']
-			}
-		]
+		loaders: [{
+			test: /\.(html|hbs)$/,
+			loaders: ['handlebars-loader']
+		}]
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			inject: false,
 			filename: 'ja/index.html',
 			template: 'template/ja.hbs',
 			cdn
@@ -35,7 +32,6 @@ module.exports = {
 			ignore: /\.DS_Store$/
 		}),
 		new HtmlWebpackPlugin({
-			inject: false,
 			filename: 'en/index.html',
 			template: 'template/en.hbs',
 			cdn
