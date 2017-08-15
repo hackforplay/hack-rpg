@@ -43,7 +43,7 @@ export default function makeMagic(x, y, map, fileName) {
 	} else {
 		magic.mod(('▼ スキン', _mまほうじん));
 		magic.onのった = () => {
-			Hack.log('ふういんのせいで つかえない');
+			Hack.log('THIS PORTAL IS BROKEN');
 		};
 	}
 };

@@ -108,7 +108,7 @@ function gameStart() {
 			// 魔道書を削除
 			item1.destroy();
 		}
-		Hack.log('本に かかれている もじを よんでみて');
+		Hack.log('Read this book. You can rewrite it. Good luck!');
 	};
 	// 魔道書に女の人を登録する
 	feeles.setAlias('woman', item5);

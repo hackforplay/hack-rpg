@@ -82,7 +82,7 @@ function gameStart() {
 		// ６秒たったら...
 		if (player.mapX === mapX && player.mapY === mapY) {
 			// プレイヤーのいちが同じなら、せつめいを出す
-			Hack.log('キーボードの やじるしキーを おしてみて');
+			Hack.log('Press Arrow Key on the Keyboard');
 		}
 	}, 6000);
 
@@ -92,7 +92,7 @@ function gameStart() {
 	setTimeout(() => {
 		// １５秒たったら...
 		if (!isAttacked) {
-			Hack.log('スペースキーを おしてみて');
+			Hack.log('Press Space Key on the Keyboard');
 		}
 	}, 15000);
 
@@ -103,7 +103,7 @@ function gameStart() {
 	setTimeout(() => {
 		// ２０秒たったら...
 		if (item1.hp === hp) {
-			Hack.log('スライムに ちかづいて こうげきしよう！');
+			Hack.log('Attack the Slime!');
 		}
 	}, 20000);
 

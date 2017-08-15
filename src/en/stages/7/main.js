@@ -38,17 +38,17 @@ function gameStart() {
 	boy.locate(7, 3);
 	// フラグが立っていたら...
 	if (flag) {
-		Hack.log('転移装置 の ふういんが とけた!');
+		Hack.log('THE PORTALS CAN BE USED!');
 		// 神官にぶつかったら...
 		boy.onぶつかった = () => {
-			Hack.log('きみの そのちから、このせかいをもっと 自由にできるんじゃないかな');
+			Hack.log('You can make this world more better with your power, right? Good luck!');
 		};
 	}
 	// フラグが立っていなかったら...
 	else {
 		// 神官にぶつかったら...
 		boy.onぶつかった = () => {
-			Hack.log('きみが ふういんを といてくれるのかい？');
+			Hack.log('Hum... Could you fix these portals?');
 			// 魔道書を開く
 			feeles.openEditor('stages/extra.js');
 		};
