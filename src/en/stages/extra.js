@@ -34,9 +34,9 @@ export default function makeMagic(x, y, map, fileName) {
 	if (flag) {
 		magic.mod(('▼ スキン', _mまほうじんひかった));
 		magic.onのった = () => {
-			if (confirm('このステージを 改造(かいぞう) しますか？')) {
+			if (confirm('Would you like to HACK here?')) {
 				feeles.openEditor(fileName);
-			} else if (confirm('もどりますか？')) {
+			} else if (confirm('RETURN to the previous stage')) {
 				feeles.replace('stages/7/index.html');
 			}
 		};

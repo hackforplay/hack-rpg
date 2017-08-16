@@ -58,37 +58,37 @@ function gameStart() {
 
 	// 4, 6 の位置に　明るい緑色（lightgreen） の転移装置を作る
 	const warp1 = createWarp(4, 6, 'lightgreen',
-		'ステージ１ "はじまりの森" に ワープしますか？',
+		'GO TO THE STAGE 1, "Entrance", READY?',
 		'stages/1/index.html'
 	);
 
 	// 5, 7 の位置に　オレンジ色（orange） の転移装置を作る
 	const warp2 = createWarp(5, 7, 'orange',
-		'ステージ2 "CODE の 魔法" に ワープしますか？',
+		'GO TO THE STAGE 2, "CODE". READY?',
 		'stages/2/index.html'
 	);
 
 	// 6, 7 の位置に　青色（blue） の転移装置を作る
 	const warp3 = createWarp(6, 7, 'blue',
-		'ステージ3 "おかしな行き止まり" に ワープしますか？',
+		'GO TO THE STAGE 3, "Dead End". READY?',
 		'stages/3/index.html'
 	);
 
 	// 8, 7 の位置に　シアン（水色）（cyan） の転移装置を作る
 	const warp4 = createWarp(8, 7, 'cyan',
-		'ステージ4 "閉じられた群青の輝き" に ワープしますか？',
+		'GO TO THE STAGE 4, "Crowd". READY?',
 		'stages/4/index.html'
 	);
 
 	// 9, 7 の位置に　黄色（yellow） の転移装置を作る
 	const warp5 = createWarp(9, 7, 'yellow',
-		'ステージ5 "大グモ荒野" に ワープしますか？',
+		'GO TO THE STAGE 5, "Spider". READY?',
 		'stages/5/index.html'
 	);
 
 	// 10, 8 の位置に紫色（purple)　の転移装置を作る
 	const warp6 = createWarp(10, 8, 'purple',
-		'ステージ6 "守りし者" に ワープしますか？',
+		'GO TO THE STAGE 6, "Guardian". READY?',
 		'stages/6/index.html'
 	);
 
@@ -130,7 +130,7 @@ function createWarp(x, y, color, message, next) {
 		// ワープ床にプレイヤーが乗ったら...
 		warp.onのった = () => {
 			// メッセージ
-			alert('見えない力で 閉ざされている');
+			alert('<< PORTAL IS LOCKED >>');
 		};
 	}
 	return warp;
