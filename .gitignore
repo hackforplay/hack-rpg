@@ -7,3 +7,6 @@ public
 
 # firebase
 firebase-debug.log
+
+# VSCode
+.vscode
