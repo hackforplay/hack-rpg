@@ -4,12 +4,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const FeelesWebpackPlugin = require('./feeles-webpack-plugin');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
-const cdn = 'https://assets.feeles.com/public/v1114/h4p.js';
+const cdn = 'https://assets.feeles.com/public/v1119/h4p.js';
+// const cdn = 'http://localhost:8081/h4p.js';
 const port = process.env.PORT || 8082;
 const dist = 'public/';
 
 module.exports = {
-	entry: './src/support-hot-reload.js',
+	entry: './support-hot-reload.js',
 	output: {
 		path: path.resolve(dist),
 		filename: '[name].js'
@@ -22,30 +23,22 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			filename: 'ja/index.html',
-			template: 'template/ja.hbs',
+			filename: 'index.html',
+			template: 'template.hbs',
 			cdn
 		}),
 		new FeelesWebpackPlugin({
-			paths: ['src/ja'],
-			output: 'ja/hack-rpg.json',
-			ignore: /\.DS_Store$/
-		}),
-		new HtmlWebpackPlugin({
-			filename: 'en/index.html',
-			template: 'template/en.hbs',
-			cdn
-		}),
-		new FeelesWebpackPlugin({
-			paths: ['src/en', 'src/ja'],
-			output: 'en/hack-rpg.json',
+			paths: ['src'],
+			output: 'hack-rpg.json',
 			ignore: /\.DS_Store$/
 		}),
 
 		// https://medium.com/webpack/webpack-3-official-release-15fd2dd8f07b
 		new webpack.optimize.ModuleConcatenationPlugin(),
 
-		new OpenBrowserPlugin({ url: `http://localhost:${port}/ja/` })
+		new OpenBrowserPlugin({
+			url: `http://localhost:${port}`
+		})
 	],
 	devServer: {
 		contentBase: dist,
