@@ -2,22 +2,9 @@
   "hosting": {
     "public": "public",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "/ja",
-        "type": 302
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "/ja/**",
-        "destination": "/ja/index.html"
-      },
-      {
-        "source": "/en/**",
-        "destination": "/en/index.html"
-      }
-    ]
+    "rewrites": [{
+      "source": "/**",
+      "destination": "/index.html"
+    }]
   }
 }
