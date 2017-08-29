@@ -1,13 +1,7 @@
-// This slime has a BUG in itself.
-// Its hp(Health Point) may be too high.
+// Dear brave adventure.
+// To go over there,
+//  you need to teleport.
 
-slime.hp = 99;
-//     Click ↑ (above)
+player.locate(12, 6);
 
-// Wow, did you see it!?
-// It can be ...rewritten! 😵😵😵
-
-insect.hp = 9999;
-//   Next click ↑. It is insect's.
-
-// After rewriting, click [SEND THE CODE]!
+// Click [SEND THE CODE] !!

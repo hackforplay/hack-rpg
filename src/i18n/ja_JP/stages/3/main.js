@@ -11,6 +11,9 @@ function gameStart() {
 	// map1 を読み込む
 	Hack.changeMap('map1');
 
+	// コードをとじる
+	feeles.closeCode();
+
 	// 解説の youtube を開く
 	feeles.openMedia({
 		url: 'https://www.youtube.com/embed/mLBb7WQTjoo'
