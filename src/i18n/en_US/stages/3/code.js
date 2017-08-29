@@ -1,13 +1,13 @@
-// このへやに 出口が ないのは
-// CODE が まちがっているからです
+// This slime has a BUG in itself.
+// Its hp(Health Point) may be too high.
 
+slime.hp = 99;
+//     Click ↑ (above)
 
-stair.opacity = 1;
+// Wow, did you see it!?
+// It can be ...rewritten! 😵😵😵
 
+insect.hp = 9999;
+//   Next click ↑. It is insect's.
 
-// 上に数字が 書いてありますね？　 ...これは
-// ぜんかく（ふとい文字）で 書かれていますが
-// はんかく（ほそい文字）で 書かなくては なりません
-
-// 全かくの １ を 半かくの 1 に なおせば
-// 道が 見えるでしょう……
+// After rewriting, click [SEND THE CODE]!
