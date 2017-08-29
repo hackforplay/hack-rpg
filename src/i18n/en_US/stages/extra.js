@@ -44,6 +44,12 @@ export default function makeMagic(x, y, map, fileName) {
 		magic.mod(('▼ スキン', _mまほうじん));
 		magic.onのった = () => {
 			Hack.log('THIS PORTAL IS BROKEN');
+			const { text } = Hack.textarea;
+			feeles.setTimeout(() => {
+				if (text === Hack.textarea.text) {
+					Hack.textarea.hide();
+				}
+			}, 3000);
 		};
 	}
 };
