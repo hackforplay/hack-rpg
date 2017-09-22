@@ -18,7 +18,7 @@ function gameStart() {
 
 	// 解説の youtube を開く
 	feeles.openMedia({
-		url: 'https://www.youtube.com/embed/4L0qPyUaH0A'
+		url: 'https://youtu.be/yfwUHmf0DYA'
 	});
 
 	// 説明書を開く

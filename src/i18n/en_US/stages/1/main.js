@@ -12,7 +12,7 @@ function gameStart() {
 
 	// 解説の youtube を開く
 	feeles.openMedia({
-		url: 'https://www.youtube.com/embed/od61KliPeJI'
+		url: 'https://youtu.be/VDPRV91o984'
 	});
 
 	// 説明書を表示する
@@ -82,7 +82,7 @@ function gameStart() {
 		// ６秒たったら...
 		if (player.mapX === mapX && player.mapY === mapY) {
 			// プレイヤーのいちが同じなら、せつめいを出す
-			Hack.log('Press Arrow Key on the Keyboard');
+			Hack.log('Press Arrow Pad on Below');
 		}
 	}, 6000);
 
@@ -92,7 +92,7 @@ function gameStart() {
 	setTimeout(() => {
 		// １５秒たったら...
 		if (!isAttacked) {
-			Hack.log('Press Space Key on the Keyboard');
+			Hack.log('Press Round Button on Below');
 		}
 	}, 15000);
 

@@ -12,9 +12,9 @@ function gameStart() {
 	Hack.changeMap('map1');
 
 	// // 解説の youtube を開く
-	// feeles.openMedia({
-	// 	url: 'https://www.youtube.com/embed/mLBb7WQTjoo'
-	// });
+	feeles.openMedia({
+		url: 'https://youtu.be/d6KR-zfLA7c'
+	});
 
 	// 説明書を表示する
 	// feeles.openReadme('stages/2/README.md');
