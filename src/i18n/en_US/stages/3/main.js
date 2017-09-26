@@ -66,7 +66,7 @@ function gameStart() {
 	const item2 = new RPGObject();
 	item2.mod(('▼ スキン', _sスライム));
 	// スライムの体力
-	item2.hp = 99;
+	item2.hp = 999;
 	// スライムを 7, 5 の位置に移動する ( map1 )
 	item2.locate(7, 5, 'map1');
 

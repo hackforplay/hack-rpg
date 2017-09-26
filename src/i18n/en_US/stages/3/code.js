@@ -1,7 +1,7 @@
 // This slime has a BUG in itself.
 // Its hp(Health Point) may be too high.
 
-slime.hp = 99;
+slime.hp = 999;
 //     Click ↑ (above)
 
 // Wow, did you see it!?
