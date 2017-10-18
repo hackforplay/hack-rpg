@@ -13,7 +13,7 @@ function gameStart() {
 
 	// 解説の youtube を開く
 	feeles.openMedia({
-		url: 'https://youtu.be/laR6MY6IiJQ',
+		url: 'https://youtu.be/sHlxu5U94U0',
 		playing: true,
 		controls: true,
 		volume: 0.2
