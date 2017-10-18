@@ -6,7 +6,7 @@ Now you can create your original stage!
 
 Then press button below to create new stage. 
 
-[CREATE NEW](https://kits.feeles.com/make-rpg.html)
+[CREATE NEW](https://make-rpg.hackforplay.xyz)
 
 ## Play again
 

@@ -6,7 +6,7 @@
 
 さっそく下のボタンをクリックして、ステージを作り始めましょう
 
-[あたらしいステージを作る](https://kits.feeles.com/make-rpg.html)
+[あたらしいステージを作る](https://make-rpg.hackforplay.xyz)
 
 ## もういちど はじめからあそびたい
 
