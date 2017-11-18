@@ -1,5 +1,9 @@
 # *Ending*
 
+### Next
+
+[PLAY MORE](https://www.hackforplay.xyz/pickup)
+
 ### Congratulations!!
 
 Now you can create your original stage!
