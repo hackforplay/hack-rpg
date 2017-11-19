@@ -27,6 +27,10 @@ export const じゅもん = ('▼ ふういん', 'する');
 export const flag = じゅもん !== 'する';
 
 export default function makeMagic(x, y, map, fileName) {
+
+	/* Remove the tutorial hacking */
+	return;
+
 	const magic = new RPGObject();
 	magic.locate(x, y, map);
 	magic.layer = RPGMap.Layer.Under;

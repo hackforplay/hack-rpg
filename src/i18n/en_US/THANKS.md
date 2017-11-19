@@ -15,9 +15,3 @@ Then press button below to create new stage.
 ## Play again
 
 [BACK TO THE FIRST](stages/1/index.html)
-
-## The way of modifying
-
-You can also modify this game. But this way is difficult. If you created your game, you can challenge this way.
-
-[MODIFY GAME](stages/7/index.html)
