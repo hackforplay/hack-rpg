@@ -95,7 +95,7 @@ function gameStart() {
 	setTimeout(() => {
 		// １５秒たったら...
 		if (!isAttacked) {
-			Hack.log('Press Round Button on Below');
+			Hack.log('Press Sward Button Below');
 		}
 	}, 15000);
 

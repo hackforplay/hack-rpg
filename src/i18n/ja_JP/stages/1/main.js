@@ -95,7 +95,7 @@ function gameStart() {
 	setTimeout(() => {
 		// １５秒たったら...
 		if (!isAttacked) {
-			Hack.log('まるいボタンを おしてみて');
+			Hack.log('剣のボタンを おしてみて');
 		}
 	}, 15000);
 
