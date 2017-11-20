@@ -73,7 +73,7 @@ function gameStart() {
 	// 階段にプレイヤーが乗ったら...
 	item2.onのった = () => {
 		// 次のステージに！
-		feeles.replace('stages/2/index.html');
+		feeles.replace('stages/3/index.html');
 	};
 
 	// そうさせつめい (1)
