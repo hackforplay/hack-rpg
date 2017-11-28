@@ -2,7 +2,7 @@ import 'hackforplay/enchantjs-kit';
 import 'hackforplay/hack';
 import 'hackforplay/rpg-kit-rpgobjects';
 import 'hackforplay/rpg-kit-color';
-
+import 'mod/coordinate';
 
 
 var game = enchant.Core.instance;
