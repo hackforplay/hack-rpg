@@ -13,19 +13,9 @@ import 'hackforplay/enchantjs-kit';
 module.exports = Hack;
 
 // Eval exception catch
-(function() {
-	var _eval = window.eval;
-	window.eval = function() {
-		try {
-			_eval.apply(window, arguments);
-		} catch (e) {
-			if (Hack && typeof Hack.log === 'function') {
-				Hack.log('It was slient. // うまく うごかなかった');
-			}
-		}
-	};
-})();
-
+Hack.on('error', function() {
+	Hack.log('It was slient. // うまく うごかなかった');
+});
 
 Hack.fun2str = function(func) {
 	// 関数の文字列化
@@ -543,5 +533,3 @@ game.addEventListener('load', function() {
 		throw new Error('Hack.css2rgb requires CSS style string or Array of number');
 	};
 })();
-
-
