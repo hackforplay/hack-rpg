@@ -7033,3 +7033,5 @@
 	});
 
 }(window));
+
+module.exports = enchant;
