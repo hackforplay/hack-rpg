@@ -3,7 +3,6 @@ import enchant from 'enchantjs/enchant';
 import Hack from 'hackforplay/hack';
 import 'hackforplay/core';
 
-console.log(enchant.Core)
 const game = enchant.Core.instance;
 const { MutableText } = enchant.ui;
 
