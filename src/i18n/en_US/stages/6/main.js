@@ -3,6 +3,7 @@ import './main2';
 import './main3';
 import './main4';
 import './maps';
+import MouseController from '../../../../mod/MouseController';
 import extra from '../extra';
 
 game.preload('hackforplay/bar_green.png', 'hackforplay/bar_red.png');
@@ -44,6 +45,7 @@ function gameStart() {
 		// ゲームオーバー
 		Hack.gameover();
 	};
+	Hack.mouseController = new MouseController(player);
 
 	// 魔道書にプレイヤーを登録する
 	feeles.setAlias('player', player);

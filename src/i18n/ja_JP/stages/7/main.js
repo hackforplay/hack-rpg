@@ -1,5 +1,6 @@
 import Assets from 'hackforplay/Assets';
 import './maps';
+import MouseController from '../../../../mod/MouseController';
 import extra, {
 	flag
 } from '../extra';
@@ -26,6 +27,7 @@ function gameStart() {
 		// ゲームオーバー
 		Hack.gameover();
 	};
+	Hack.mouseController = new MouseController(player);
 
 
 	/*+ ゲーム */
