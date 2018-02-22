@@ -83,7 +83,7 @@ function gameStart() {
 
 	// かいだん
 	const item2 = new RPGObject();
-	item2.mod(('▼ スキン', _nのぼりかいだん));
+	item2.mod(('▼ スキン', _kくだりかいだん));
 	// 階段を 7, 1 の位置に移動する ( map1 )
 	item2.locate(7, 1, 'map1');
 	// 階段を下の方に置く ( Under )

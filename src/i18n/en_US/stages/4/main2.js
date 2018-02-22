@@ -29,7 +29,7 @@ function gameStartLazy() {
 
 	// かいだん
 	const item2 = new RPGObject();
-	item2.mod(('▼ スキン', _kくだりかいだん));
+	item2.mod(('▼ スキン', _nのぼりかいだん));
 	// 階段を 7, 8 の位置に移動する ( map2 )
 	item2.locate(7, 8, 'map2');
 	// 階段は下の方に置く ( Under )
