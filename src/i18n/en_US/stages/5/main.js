@@ -13,12 +13,17 @@ function gameStart() {
 	feeles.openCode('stages/5/code1.js');
 
 	// 解説の youtube を開く
-	feeles.openMedia({
-		url: 'https://youtu.be/sHlxu5U94U0',
-		playing: true,
-		controls: true,
-		volume: 0.2
-	});
+	const youtube = new RPGObject();
+	youtube.mod(Hack.assets.village);
+	youtube.locate(0, 4);
+	youtube.onplayerenter = () => {
+		feeles.openMedia({
+			url: 'https://youtu.be/sHlxu5U94U0',
+			playing: true,
+			controls: true,
+			volume: 0.2
+		});
+	};
 
 	// 説明書を開く
 	// feeles.openReadme('stages/5/README.md');
