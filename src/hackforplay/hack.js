@@ -13,8 +13,14 @@ import 'hackforplay/enchantjs-kit';
 module.exports = Hack;
 
 // Eval exception catch
+var errorTimeout = null;
 Hack.on('error', function() {
+	feeles.clearTimeout(errorTimeout);
 	Hack.log('It was slient. // うまく うごかなかった');
+	errorTimeout = feeles.setTimeout(function() {
+		Hack.clearLog();
+		Hack.textarea.hide()
+	}, 3000);
 });
 
 Hack.fun2str = function(func) {
