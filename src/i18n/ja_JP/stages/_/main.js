@@ -4,7 +4,7 @@ import {
 } from 'utils';
 import extra from '../extra';
 import './maps';
-import MouseController from '../../../../mod/MouseController';
+
 
 function gameStart() {
 
@@ -38,7 +38,7 @@ function gameStart() {
 		// ゲームオーバー
 		Hack.gameover();
 	};
-	Hack.mouseController = new MouseController(player);
+
 
 	// 魔道書にプレイヤーを登録する
 	feeles.setAlias('player', player);

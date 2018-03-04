@@ -1,6 +1,6 @@
 import Assets from 'hackforplay/Assets';
 import './maps';
-import MouseController from '../../../../mod/MouseController';
+
 import './main2';
 import extra from '../extra';
 
@@ -45,7 +45,7 @@ function gameStart() {
 		// ゲームオーバー
 		Hack.gameover();
 	};
-	Hack.mouseController = new MouseController(player);
+
 
 	// 魔道書にプレイヤーを登録する
 	feeles.setAlias('player', player);
