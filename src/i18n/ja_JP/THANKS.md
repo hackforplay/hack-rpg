@@ -10,7 +10,7 @@
 
 さっそく下のボタンをクリックして、ステージを作り始めましょう
 
-[あたらしいステージを作る](https://make-rpg.hackforplay.xyz)
+[あたらしいステージを作る](https://www.hackforplay.xyz/officials/make-rpg)
 
 ## もういちど はじめからあそびたい
 

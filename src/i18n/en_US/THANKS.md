@@ -10,7 +10,7 @@ Now you can create your original stage!
 
 Then press button below to create new stage. 
 
-[CREATE NEW](https://make-rpg.hackforplay.xyz)
+[CREATE NEW](https://www.hackforplay.xyz/officials/make-rpg)
 
 ## Play again
 
