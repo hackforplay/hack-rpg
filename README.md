@@ -1,2 +1,3 @@
-# hack-rpg
-HackforPlay (ハックしてクリアするゲーム) の wiki です
+# Deprecated
+
+Please use [hackforplay/official](https://github.com/hackforplay/official) instead.
